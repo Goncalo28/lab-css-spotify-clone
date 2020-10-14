@@ -6,3 +6,268 @@ Green: #00B172
 White: #FFF
 
 */
+@keyframes bounce {
+    0%, 100%, 50%, 80% {
+        transform: translateY(0)
+    }
+    40% {
+        transform: translateY(-6px)
+    }
+    60% {
+        tranform: translateY(-5px)
+    }
+}
+
+body {
+    margin: 0%;
+}
+
+.top-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('/images/landing.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 5%;
+}
+
+nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    width:100%;
+    top:0;
+    background-color: #FFF;
+    height: 5%;
+}
+  
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1em;
+}
+  
+li {
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-right: 10px;
+    color: #1A1A1A;
+    font-family: 'Commissioner', sans-serif;
+}
+  
+.logo-image {
+    display: flex;
+    justify-content: space-around;
+    width: 160px;
+    height: 50px;
+}
+
+.logo-image:hover{
+    animation: bounce;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 5em;
+    font-weight: lighter;
+    font-family: 'Commissioner', sans-serif;
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+
+.top-section-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Commissioner', sans-serif;
+    color: #FFF;
+    font-size: 30px;
+    position: absolute;
+    margin-top: 10em;
+}
+
+.middle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 30em;
+    margin-top: -4em;
+    margin-bottom: -3em;
+}
+
+.middle-h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    color: #1A1A1A;
+    margin-top: 2em;
+    margin-bottom: -4em;
+}
+
+.songs-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: lighter;
+    font-family: 'Commissioner', sans-serif;
+    text-align: center;
+}
+
+.songs-img{
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    height: 10%;
+}
+
+.music-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: lighter;
+    font-family: 'Commissioner', sans-serif;
+    text-align: center;
+}
+.music-img{
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    height: 10%;
+}
+
+.stream-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: lighter;
+    font-family: 'Commissioner', sans-serif;
+    text-align: center;
+}
+.stream-img{
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    height: 10%;
+}
+
+.bottom-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #00B172;
+    width: 95%;
+    height: 100%;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    margin-left: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.bottom-text-container{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 8%;
+    height: 100%;
+    padding-bottom: 2em;
+}
+
+
+.white-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+}
+.white-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 30%;
+}
+
+.app-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 8%;
+    padding-bottom: 0.8em;
+}
+
+.app-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 30em;
+}
+
+h4 {
+    color: #FFF;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+h2 {
+    color: #FFF;
+    text-decoration: underline;
+    text-decoration-color: #FFF;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: bold;
+
+}
+
+span{
+    color: #FFF;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: lighter;
+}
+
+h3 {
+    color: #00B172;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
